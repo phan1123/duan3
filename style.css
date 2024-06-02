@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+}
+.main-content{
+    width: 1200px;
+    height: 800px;
+}
+.header{
+    width: 1200px;
+    height: 150px;
+    background-color:rgb(6, 122, 122);
+}
+.header h2{
+    padding-top: 40px;
+    color: white;
+}
+.service-list{
+    margin: 0;
+    padding-bottom: 40px;
+    position: relative;
+    top: -40px;
+}
+.service-list li{
+    width: 303px;
+    margin-right: 15px;
+    margin-left: 15px;
+    float: left;
+    background-color: #fff;
+    min-height: 220px;
+    padding: 65px 30px 30px;
+}
+.icon{
+    margin-bottom: 16px;
+}
+.icon i{
+    font-size: 40px;
+    color: green;
+}
+.service-list li h3{
+    color: #000;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.service-list li p{
+    color: gray;
+}
